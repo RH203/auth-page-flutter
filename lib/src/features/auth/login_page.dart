@@ -56,7 +56,7 @@ class LoginPage extends StatelessWidget {
                     keyboardType: TextInputType.emailAddress,
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return "Harap isikan email";
+                        return "Harap masukan email";
                       }
 
                       if (!Validator.emailIsValid(value)) {
@@ -73,7 +73,7 @@ class LoginPage extends StatelessWidget {
                     keyboardType: TextInputType.visiblePassword,
                     validator: (value) {
                       if (value == null || value.isEmpty) {
-                        return "Harap isikan password";
+                        return "Harap masukan password";
                       }
 
                       return null;
